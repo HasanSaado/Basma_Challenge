@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+}
+
+.App {
+  font-family: 'Poppins', sans-serif;
+  flex: 1;
+  height: 100%;
+
+  /**
+  background-color: #673ab7;
+  background-size: 50% auto;
+  width: 100%;
+  */
+}
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1152px !important;
+  }
+}
