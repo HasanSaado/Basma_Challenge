@@ -1,6 +1,7 @@
 // Components
 import { Header } from './components/Header';
 import { GetStarted } from './components/GetStarted';
+import { CodeChallenge } from './components/CodeChallenge';
 
 // Style
 import './App.css';
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <GetStarted />
+      <CodeChallenge />
     </div>
   );
 }
