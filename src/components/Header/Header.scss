@@ -1,3 +1,13 @@
-.navbar {
-  color: #fff;
+.header-link {
+  color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.7rem;
+  }
 }

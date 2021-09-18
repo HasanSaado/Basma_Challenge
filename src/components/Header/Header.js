@@ -16,18 +16,29 @@ function Header() {
     <Navbar expand="lg" className="navbar">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+        <Navbar.Collapse 
+          id="basic-navbar-nav" 
+          className="justify-content-end"
+        >
           <Nav className="ml-auto">
-            <NavDropdown title="Home" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">#</NavDropdown.Item>
+            <NavDropdown 
+              title="Home" 
+              id="basic-nav-dropdown"
+              className="header-link"
+            >
+              <NavDropdown.Item href="#" className="header-link">#</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#home">Feature</Nav.Link>
-            <NavDropdown title="Pages" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">#</NavDropdown.Item>
+            <Nav.Link href="#" className="header-link">Feature</Nav.Link>
+            <NavDropdown 
+              title="Pages" 
+              id="basic-nav-dropdown" 
+              className="header-link"
+            >
+              <NavDropdown.Item href="#">#</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">Screenshot</Nav.Link>
-            <Nav.Link href="#link">Pricing</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link href="#" className="header-link">Screenshot</Nav.Link>
+            <Nav.Link href="#" className="header-link">Pricing</Nav.Link>
+            <Nav.Link href="#" className="header-link">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,0 +1,10 @@
+.share-section {
+  margin-top: 7rem; 
+  padding: 5rem 25rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .share-section {
+    padding: 2rem 1rem;
+  }
+}

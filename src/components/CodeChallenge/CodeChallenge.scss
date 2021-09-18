@@ -1,3 +1,9 @@
 .codechallenge-section {
   margin-top: 7rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .codechallenge-section {
+    margin-top: 0rem;
+  }
+}

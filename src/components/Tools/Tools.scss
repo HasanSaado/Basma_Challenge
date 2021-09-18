@@ -1,0 +1,11 @@
+.tools-section {
+  margin-top: 7rem;
+  background-color: #f5faff;
+  padding: 5rem 30rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .tools-section {
+    padding: 2rem 1rem;
+  }
+}

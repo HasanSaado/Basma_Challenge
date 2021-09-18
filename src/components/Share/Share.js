@@ -7,22 +7,22 @@ import { Image } from './components/Image';
 import { Info } from './components/Info';
 
 // Style
-import './Tools.scss';
+import './Share.scss';
 
-function Tools() {
+function Share() {
 
   /**
    *
    */
   return (
-    <div className="tools-section">
+    <div className="share-section">
       <Container>
         <div className="row">
           <div className="col-md-6">
-            <Image />
+            <Info />
           </div>
           <div className="col-md-6">
-            <Info />
+            <Image />
           </div>
         </div>
       </Container>
@@ -30,4 +30,4 @@ function Tools() {
   );
 }
 
-export default Tools;
+export default Share;
