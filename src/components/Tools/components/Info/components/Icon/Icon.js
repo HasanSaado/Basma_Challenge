@@ -2,7 +2,6 @@
 import React from 'react';
 
 // Components
-import Button from '@mui/material/Button';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import DraftsIcon from '@mui/icons-material/Drafts';
 import VideoCameraFrontIcon from '@mui/icons-material/VideoCameraFront';

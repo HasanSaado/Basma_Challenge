@@ -7,7 +7,7 @@ import './CodeChallenge.scss';
 // Components
 import { Title } from './components/Title';
 import { Snippet } from './components/Snippet';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 function CodeChallenge() {
   

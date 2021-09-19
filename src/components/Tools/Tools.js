@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Components
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { Image } from './components/Image';
 import { Info } from './components/Info';
 

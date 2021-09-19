@@ -1,5 +1,5 @@
 // Libraries
-import React from 'react';
+import React, { useState } from 'react';
 
 // Components
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
@@ -7,7 +7,14 @@ import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 // Style
 import './Header.scss';
 
-function Header() {
+function Header(props) {
+
+  /**
+   *
+   */
+  function toggle() {
+    props.toggleLanguage();
+  }
 
   /**
    *
@@ -39,6 +46,7 @@ function Header() {
             <Nav.Link href="#" className="header-link">Screenshot</Nav.Link>
             <Nav.Link href="#" className="header-link">Pricing</Nav.Link>
             <Nav.Link href="#" className="header-link">Contact</Nav.Link>
+            <Nav.Link onClick={toggle} className="header-link">{props.language ? 'Arabic' : 'English'}</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

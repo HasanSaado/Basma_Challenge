@@ -13,6 +13,7 @@ function Image() {
     <img 
       src="/thumb-2 (1).png" 
       className="tools-img" 
+      alt="thumb-2 (1)"
     />
   );
 }

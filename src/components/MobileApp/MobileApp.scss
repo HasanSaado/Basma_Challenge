@@ -1,0 +1,11 @@
+.mobileapp-section {
+  padding: 6rem;
+  box-shadow: inset 0 0 0 2000px rgb(5 9 37 / 72%);
+  background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobileapp-section {
+    padding: 0rem;
+  }
+}

@@ -13,6 +13,7 @@ function Image() {
     <img 
       src="/thumb-2.png" 
       className="share-img"
+      alt="thumb-2"
     />
   );
 }
