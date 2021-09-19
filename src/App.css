@@ -3,6 +3,17 @@ html, body {
   overflow-x: hidden;
 }
 
+@media (min-width: 1400px)
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  max-width: 1200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-light .navbar-nav .nav-link  {
+    color: #777 !important;
+  }
+}
+
 button {
   background-color: #673ab7 !important;
 }

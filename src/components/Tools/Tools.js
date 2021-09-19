@@ -18,7 +18,7 @@ function Tools() {
     <div className="tools-section">
       <Container>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 justify-content-center d-flex">
             <Image />
           </div>
           <div className="col-md-6">

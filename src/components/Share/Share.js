@@ -18,7 +18,7 @@ function Share() {
     <div className="share-section">
       <Container>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 justify-content-center d-flex">
             <Info />
           </div>
           <div className="col-md-6">
