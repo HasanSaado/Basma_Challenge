@@ -1,13 +1,13 @@
-# Basma_Challenge
+# React_Exercise
 
 ## To clone the app
 ```
-git clone https://github.com/HasanSaado/Basma_Challenge
+git clone https://github.com/HasanSaado/React_Exercise
 ```
 
 ## Then run
 ```
-cd Basma_Challenge/
+cd React_Exercise/
 npm install
 ```
 
